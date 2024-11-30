@@ -1,0 +1,1 @@
+# Exercises on Functional Programming and Other Silly Things
