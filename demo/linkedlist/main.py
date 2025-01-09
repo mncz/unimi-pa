@@ -9,7 +9,8 @@ def main():
     l3.remove(42)
     l3[0] = 8
     del l3[1]
-    l3.insert(-1, 100)
+    l3.insert(-2, 100)
+    l3.pop()
     print(l3)
     print(repr(l3))
 

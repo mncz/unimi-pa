@@ -224,6 +224,9 @@ class LinkedList:
                 else:
                     prev = current
                     current = current.next
+    
+    def pop(self):
+        self.__delitem__(-1)
 
     def __in_range(self, index):
         """
