@@ -226,6 +226,12 @@ class LinkedList:
                     current = current.next
     
     def pop(self):
+        """
+        Rimuove e restituisce l'ultimo elemento della lista collegata.
+
+        Raises:
+            IndexError: Se la lista è vuota.
+        """
         self.__delitem__(-1)
 
     def __in_range(self, index):
